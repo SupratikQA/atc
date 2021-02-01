@@ -33,9 +33,12 @@ public class XlsReader {
 
 		InputStream is = new FileInputStream(new File(System.getProperty("user.dir") + "/Testcase/" + Testcasefile));
 		Workbook wb = StreamingReader.builder().rowCacheSize(100).bufferSize(4096).open(is);
-
+		
 		for (Sheet sht : wb) {
 			for (Row r : sht) {
+				if(r.getRowNum()==0) {
+					continue;
+				}
 				for (Cell c : r) {
 
 					switch (c.getColumnIndex()) {

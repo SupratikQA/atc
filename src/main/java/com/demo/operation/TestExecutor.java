@@ -17,6 +17,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
@@ -147,8 +148,9 @@ public class TestExecutor {
 						logs.info(te.getActionName() + " --> " + te.getTestData());
 						JavascriptExecutor js = ((JavascriptExecutor) wd);
 						js.executeScript(te.getTestData());
-						logs.info("JS Executed");
+						logs.info(te.getSuccessMessage());
 					} catch (Exception e) {
+						logs.info(te.getFailureMessage());
 					}
 					break;
 				case "ACTION":
