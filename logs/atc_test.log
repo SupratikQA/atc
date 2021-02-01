@@ -1,0 +1,118 @@
+[INFO] 02-01-2021 22:59:34 com.demo.operation.TestExecutor scenario - Tescase (Testcase.xlsx) Execution ----> Begins
+[INFO] 02-01-2021 22:59:34 com.demo.operation.TestExecutor scenario - Invalid Action
+[INFO] 02-01-2021 22:59:34 com.demo.operation.TestExecutor scenario - Opening Website --> http://automationpractice.com/index.php
+[INFO] 02-01-2021 22:59:43 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:43 com.demo.operation.TestExecutor scenario - Initiating Login Operation --> //a[@title='Log in to your customer account']
+[INFO] 02-01-2021 22:59:47 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:47 com.demo.operation.TestExecutor scenario - Wait for Login Form to appear --> //*[@id="login_form"]
+[INFO] 02-01-2021 22:59:47 com.demo.operation.TestExecutor scenario - //*[@id="login_form"] got located
+[INFO] 02-01-2021 22:59:47 com.demo.operation.TestExecutor scenario - Entering Email Id --> janasupratik843@gmail.com on //*[@id="email"]
+[INFO] 02-01-2021 22:59:48 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:48 com.demo.operation.TestExecutor scenario - Entering Password --> Passw0$d on //*[@id="passwd"]
+[INFO] 02-01-2021 22:59:48 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:48 com.demo.operation.TestExecutor scenario - Clicking on Login button --> //*[@id="SubmitLogin"]
+[INFO] 02-01-2021 22:59:50 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:50 com.demo.operation.TestExecutor scenario - Waiting for My Address Button to Appear --> //span[contains(.,'My addresses')]
+[INFO] 02-01-2021 22:59:50 com.demo.operation.TestExecutor scenario - Initiating Add Neww Address Operation by Clicking on My Address Button --> //span[contains(.,'My addresses')]
+[INFO] 02-01-2021 22:59:52 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:52 com.demo.operation.TestExecutor scenario - Waiting for Add an Address title --> //a[@title='Add an address']
+[INFO] 02-01-2021 22:59:52 com.demo.operation.TestExecutor scenario - Clicking on Add an Address button --> //a[@title='Add an address']
+[INFO] 02-01-2021 22:59:54 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:54 com.demo.operation.TestExecutor scenario - Waiting For Add new address form --> //h1[contains(.,'Your addresses')]
+[INFO] 02-01-2021 22:59:54 com.demo.operation.TestExecutor scenario - Adding Firstname --> Supratik on //*[@id="firstname"]
+[INFO] 02-01-2021 22:59:55 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:55 com.demo.operation.TestExecutor scenario - Adding Lastname --> Jana on //*[@id="lastname"]
+[INFO] 02-01-2021 22:59:55 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:55 com.demo.operation.TestExecutor scenario - Adding Company --> Test Company on //*[@id="company"]
+[INFO] 02-01-2021 22:59:55 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:55 com.demo.operation.TestExecutor scenario - Adding Address 1 --> Test Address 1 on //*[@id="address1"]
+[INFO] 02-01-2021 22:59:55 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:55 com.demo.operation.TestExecutor scenario - Adding Address 2 --> Test Address 2 on //*[@id="address2"]
+[INFO] 02-01-2021 22:59:55 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:55 com.demo.operation.TestExecutor scenario - Adding City --> Test City on //*[@id="city"]
+[INFO] 02-01-2021 22:59:55 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:55 com.demo.operation.TestExecutor scenario - Adding Postcode --> 12345 on //*[@id="postcode"]
+[INFO] 02-01-2021 22:59:56 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:56 com.demo.operation.TestExecutor scenario - Adding Phone Number --> 1234567890 on //*[@id="phone"]
+[INFO] 02-01-2021 22:59:56 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:56 com.demo.operation.TestExecutor scenario - Adding Mobile Number --> 1234567890 on //*[@id="phone_mobile"]
+[INFO] 02-01-2021 22:59:56 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:56 com.demo.operation.TestExecutor scenario - Adding Additional Details --> Test on //*[@id="other"]
+[INFO] 02-01-2021 22:59:56 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:56 com.demo.operation.TestExecutor scenario - Adding Alias Name --> My Test Address on //*[@id="alias"]
+[INFO] 02-01-2021 22:59:56 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 22:59:56 com.demo.operation.TestExecutor scenario - Clicking on Submit Address button --> //*[@id="submitAddress"]
+[INFO] 02-01-2021 23:00:02 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:02 com.demo.operation.TestExecutor scenario - Hovering Over Women Tab --> //a[@title='Women']
+[INFO] 02-01-2021 23:00:05 com.demo.operation.TestExecutor scenario - Switching to List View --> //a[@title='List']
+[INFO] 02-01-2021 23:00:06 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:06 com.demo.operation.TestExecutor scenario - Clicking on Product 1 --> //*[@id="center_column"]/ul/li[1]/div/div/div[3]/div/div[2]/a[2]
+[INFO] 02-01-2021 23:00:08 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:08 com.demo.operation.TestExecutor scenario - Adding Quantity --> 5 on //*[@id="quantity_wanted"]
+[INFO] 02-01-2021 23:00:08 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:08 com.demo.operation.TestExecutor scenario - Selecting Color --> //a[@title="Orange"]
+[INFO] 02-01-2021 23:00:08 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:08 com.demo.operation.TestExecutor scenario - Adding the Product to Cart --> //span[contains(.,'Add to cart')]
+[INFO] 02-01-2021 23:00:09 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:09 com.demo.operation.TestExecutor scenario - Clicking on Continue Shopping button --> //span[@title="Continue shopping"]
+[INFO] 02-01-2021 23:00:10 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:10 com.demo.operation.TestExecutor scenario - Returning back to Main Page --> //*[@id="columns"]/div[1]/a[4]
+[INFO] 02-01-2021 23:00:12 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:12 com.demo.operation.TestExecutor scenario - Clicking on Product 2 --> //*[@id="center_column"]/ul/li[2]/div/div/div[3]/div/div[2]/a[2]
+[INFO] 02-01-2021 23:00:14 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:14 com.demo.operation.TestExecutor scenario - Adding Quantity --> 5 on //*[@id="quantity_wanted"]
+[INFO] 02-01-2021 23:00:14 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:14 com.demo.operation.TestExecutor scenario - Selecting Color --> //a[@title="Yellow"]
+[INFO] 02-01-2021 23:00:14 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:14 com.demo.operation.TestExecutor scenario - Adding the Product to Cart --> //span[contains(.,'Add to cart')]
+[INFO] 02-01-2021 23:00:14 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:14 com.demo.operation.TestExecutor scenario - Clicking on Continue Shopping button --> //span[@title="Continue shopping"]
+[INFO] 02-01-2021 23:00:16 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:16 com.demo.operation.TestExecutor scenario - Returning back to Main Page --> //*[@id="columns"]/div[1]/a[4]
+[INFO] 02-01-2021 23:00:18 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:18 com.demo.operation.TestExecutor scenario - Clicking on Product 3 --> //*[@id="center_column"]/ul/li[3]/div/div/div[3]/div/div[2]/a[2]
+[INFO] 02-01-2021 23:00:19 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:19 com.demo.operation.TestExecutor scenario - Adding Quantity --> 5 on //*[@id="quantity_wanted"]
+[INFO] 02-01-2021 23:00:20 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:20 com.demo.operation.TestExecutor scenario - Selecting Color --> //a[@title="Yellow"]
+[INFO] 02-01-2021 23:00:20 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:20 com.demo.operation.TestExecutor scenario - Adding the Product to Cart --> //span[contains(.,'Add to cart')]
+[INFO] 02-01-2021 23:00:20 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:20 com.demo.operation.TestExecutor scenario - Clicking on Proceed to checkout button --> //a[@title="Proceed to checkout"]
+[INFO] 02-01-2021 23:00:22 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:22 com.demo.operation.TestExecutor scenario - Verifying Order Summary and Clicking on Proceed to Checkout button --> //*[@id="center_column"]/p[2]/a[1]
+[INFO] 02-01-2021 23:00:24 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:24 com.demo.operation.TestExecutor scenario - Verifying Billing & Shipping and Clicking on Proceed to Checkout button --> //*[@id="center_column"]/form/p/button
+[INFO] 02-01-2021 23:00:25 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:25 com.demo.operation.TestExecutor scenario - Accepting Terms & Conditions --> document.querySelector("#cgv").click();
+[INFO] 02-01-2021 23:00:25 com.demo.operation.TestExecutor scenario - JS Executed
+[INFO] 02-01-2021 23:00:25 com.demo.operation.TestExecutor scenario - Clicking on Proceed to Checkout button --> //*[@id="form"]/p/button
+[INFO] 02-01-2021 23:00:27 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:27 com.demo.operation.TestExecutor scenario - Clicking on Pay by bank wire button --> //*[@id="HOOK_PAYMENT"]/div[1]/div/p/a
+[INFO] 02-01-2021 23:00:29 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:29 com.demo.operation.TestExecutor scenario - Clicking on I confirm my order --> //*[@id="cart_navigation"]/button
+[INFO] 02-01-2021 23:00:32 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:32 com.demo.operation.TestExecutor scenario - Clicking on View my customer account option --> //*[@id="header"]/div[2]/div/div/nav/div[1]/a
+[INFO] 02-01-2021 23:00:34 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:34 com.demo.operation.TestExecutor scenario - Clicking on Order history and details button --> //*[@id="center_column"]/div/div[1]/ul/li[1]/a
+[INFO] 02-01-2021 23:00:36 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:36 com.demo.operation.TestExecutor scenario - Clicking on Order Details button --> //*[@id="order-list"]/tbody/tr/td[7]/a[1]
+[INFO] 02-01-2021 23:00:36 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:36 com.demo.operation.TestExecutor scenario - Waiting for Order Details
+[INFO] 02-01-2021 23:00:39 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:39 com.demo.operation.TestExecutor scenario - Scrolling Down to View Order Details --> scrollBy(0,1000);
+[INFO] 02-01-2021 23:00:39 com.demo.operation.TestExecutor scenario - JS Executed
+[INFO] 02-01-2021 23:00:39 com.demo.operation.TestExecutor scenario - Prepairing for Screenshot
+[INFO] 02-01-2021 23:00:42 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:43 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:43 com.demo.operation.TestExecutor scenario - Clicking on Signout link --> //*[@id="header"]/div[2]/div/div/nav/div[2]/a
+[INFO] 02-01-2021 23:00:47 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:47 com.demo.operation.TestExecutor scenario - Waiting for Completion
+[INFO] 02-01-2021 23:00:50 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:50 com.demo.operation.TestExecutor scenario - Completing Test Case Execution --> alert("Success!! Test Execution Ended Successfully");
+[INFO] 02-01-2021 23:00:50 com.demo.operation.TestExecutor scenario - JS Executed
+[INFO] 02-01-2021 23:00:50 com.demo.operation.TestExecutor scenario - End of Test
+[INFO] 02-01-2021 23:00:53 com.demo.operation.TestExecutor scenario - SUCCESS
+[INFO] 02-01-2021 23:00:53 com.demo.operation.TestExecutor scenario - Tescase (Testcase.xlsx) Execution ----> Ends
+[INFO] 02-01-2021 23:00:53 com.demo.operation.TestExecutor scenario - -----------------------------------------------
+[INFO] 02-01-2021 23:00:53 com.demo.operation.TestExecutor end - DONE

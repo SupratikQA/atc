@@ -12,6 +12,7 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -150,11 +151,11 @@ public class TestExecutor {
 					} catch (Exception e) {
 					}
 					break;
-//				case "ACTION":
-//					Actions action = new Actions(wd);
-//					WebElement we = wd.findElement(By.xpath(te.getIdentifier()));
-//					action.moveToElement(we).moveToElement(wd.findElement(By.xpath(te.getAdditionalIdentifier()))).click().build().perform();
-//					break;
+				case "ACTION":
+					Actions action = new Actions(wd);
+					WebElement we = wd.findElement(By.xpath(te.getIdentifier()));
+					action.moveToElement(we).moveToElement(wd.findElement(By.xpath(te.getAdditionalIdentifier()))).click().build().perform();
+					break;
 				case "ALERTACTION":
 					if (te.getTestData().equalsIgnoreCase("accept")) {
 						wd.switchTo().alert().accept();
