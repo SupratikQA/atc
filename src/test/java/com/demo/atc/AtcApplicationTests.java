@@ -1,4 +1,4 @@
-package com.demo.iamsath;
+package com.demo.atc;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

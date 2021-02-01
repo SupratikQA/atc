@@ -4,8 +4,6 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.util.List;
-import java.util.Scanner;
-
 import org.apache.commons.io.FileUtils;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
@@ -14,14 +12,11 @@ import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
-import org.testng.Reporter;
 import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 import com.demo.config.DriverManager;
@@ -37,7 +32,7 @@ public class TestExecutor {
 	@Test(priority = 1)
 	public void scenario() throws FileNotFoundException, NumberFormatException, InterruptedException {
 
-		String testcases[] = { "Testcase2.xlsx" };
+		String testcases[] = { "Testcase.xlsx" };
 
 		for (int i = 0; i < testcases.length; i++) {
 			DriverManager dmgr = new DriverManager();

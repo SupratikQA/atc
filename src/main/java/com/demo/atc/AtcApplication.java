@@ -8,6 +8,7 @@ import com.demo.operation.TestExecutor;
 @SpringBootApplication
 public class AtcApplication {
 	public static TestNG tng;
+
 	public static void main(String[] args) {
 		SpringApplication.run(AtcApplication.class, args);
 		tng = new TestNG();
