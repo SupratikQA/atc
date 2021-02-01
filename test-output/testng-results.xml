@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-02-01T17:29:29Z" name="Command line suite" finished-at="2021-02-01T17:30:54Z" duration-ms="84241">
+  <suite started-at="2021-02-01T17:45:07Z" name="Command line suite" finished-at="2021-02-01T17:46:28Z" duration-ms="81110">
     <groups>
     </groups>
-    <test started-at="2021-02-01T17:29:29Z" name="Command line test" finished-at="2021-02-01T17:30:54Z" duration-ms="84241">
+    <test started-at="2021-02-01T17:45:07Z" name="Command line test" finished-at="2021-02-01T17:46:28Z" duration-ms="81110">
       <class name="com.demo.operation.TestExecutor">
-        <test-method signature="scenario()[pri:1, instance:com.demo.operation.TestExecutor@4784013e]" started-at="2021-02-01T17:29:29Z" name="scenario" finished-at="2021-02-01T17:30:53Z" duration-ms="83474" status="FAIL">
+        <test-method signature="scenario()[pri:1, instance:com.demo.operation.TestExecutor@4784013e]" started-at="2021-02-01T17:45:07Z" name="scenario" finished-at="2021-02-01T17:46:27Z" duration-ms="80322" status="FAIL">
           <exception class="org.openqa.selenium.UnhandledAlertException">
             <message>
               <![CDATA[unexpected alert open: {Alert text : Success!! Test Execution Ended Successfully}
@@ -15,8 +15,8 @@
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-MCNMEK9', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\janas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c3a52801c9cb63367d8e8b467de0dafa]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\janas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ce7d2af66b21bcb1e6d56ae8bfb70798]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Success!! Test Execution Ended Successfully}
@@ -24,8 +24,8 @@ Session ID: c3a52801c9cb63367d8e8b467de0dafa]]>
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-MCNMEK9', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\janas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61765}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: c3a52801c9cb63367d8e8b467de0dafa
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 88.0.4324.104, chrome: {chromedriverVersion: 88.0.4324.96 (68dba2d8a0b14..., userDataDir: C:\Users\janas\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62789}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ce7d2af66b21bcb1e6d56ae8bfb70798
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:120)
 at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
 at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
@@ -63,7 +63,7 @@ at com.demo.atc.AtcApplication.main(AtcApplication.java:16)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario -->
-        <test-method is-config="true" signature="end()[pri:0, instance:com.demo.operation.TestExecutor@4784013e]" started-at="2021-02-01T17:30:53Z" name="end" finished-at="2021-02-01T17:30:54Z" duration-ms="748" status="PASS">
+        <test-method is-config="true" signature="end()[pri:0, instance:com.demo.operation.TestExecutor@4784013e]" started-at="2021-02-01T17:46:27Z" name="end" finished-at="2021-02-01T17:46:28Z" duration-ms="775" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- end -->

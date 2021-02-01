@@ -166,6 +166,7 @@ public class TestExecutor {
 				case "SCREENSHOT":
 					File screenshot = ((TakesScreenshot) wd).getScreenshotAs(OutputType.FILE);
 					try {
+						logs.info(te.getActionName() + " --> " + te.getTestData());
 						FileUtils.copyFile(screenshot, new File(
 								System.getProperty("user.dir") + "/Screenshot/" + Math.random() + "screenshot.png"));
 						logs.info(te.getSuccessMessage());
